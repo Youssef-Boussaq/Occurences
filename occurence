@@ -1,0 +1,10 @@
+t=[]
+m=0
+for i in range(0,20):
+    a=int(input(f"input 20 number intier N={i+1}: "))
+    t.append(a)
+n=int(input("input the number for occurrences: "))
+for i in range(0,20):
+    if n==t[i]:
+        m+=1
+print("the number of occurrences",n ,"of in text is", m)
